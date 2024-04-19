@@ -19,12 +19,32 @@ spades = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 # King of Spades
 # Ace of Spades
 
+for club in clubs
+    puts "# #{club} of Clubs"
+end
+
+for diamond in diamonds
+    puts "# #{diamond} of Diamonds"
+end
+
+for heart in hearts
+    puts "# #{heart} of Hearts"
+end
+
+for spade in spades
+    puts "# #{spade} of Spades"
+end
+
+
+
 # CHALLENGE #1
 # The arrays are identical for each suit and can be simplified by using
 # a ranks array as seen below. Try to complete the exercise again by
 # combining these arrays.
 ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
+
+
 
 # CHALLENGE #2
 # Deal a poker hand. Shuffle the deck and "deal" (i.e. display) a 5 card hand (i.e. 5 cards from the deck).

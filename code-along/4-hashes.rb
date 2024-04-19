@@ -22,7 +22,6 @@ my_profile = {
 # puts my_profile
 
 # Accessing data from the hash
-puts my_profile ["timeline"][0]
-
+puts my_profile ["timeline"{0}]
 
 # More Complex Hashes
